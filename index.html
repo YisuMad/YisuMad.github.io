@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Coding Journal | By: Jesus</title>
+</head>
+<body>
+    <div class="container">
+      <div class="title">
+        <h1>Coding Journal</h1>
+      </div>
+      <div class="section">
+        <p>
+          Welcome to my self-learning notes page. Here, you will find information that I am learning along my coding journey, starting from HTML and progressing to more advanced programming languages.<br>
+          Since my knowledge of coding languages is limited, you may currently perceive this page as subpar. However, I am committed to improving it based on my learnings and expanding knowledge.
+        </p>
+      </div>
+      <div class="section">
+        <h2 style="text-align: center;">HTML</h2>
+        <p>
+          Let's begin by defining HTML. It stands for <q>Hypertext Markup Language</q> and serves as the foundation for creating web pages. HTML is the first programming language you should learn. In this section, I will cover a few essential concepts. Let's get started!
+        </p>
+      </div>
+      <div id="section">
+        <h3>Body</h3>
+        <p>
+          The <q>&lt;body&gt;</q> element contains the content displayed on a web page. Everything you and I are currently reading is built using the body element, along with additional elements that I will explain later. Without the <q>&lt;body&gt;</q> element, nothing would be displayed on a web page. Example:
+        </p>
+        <pre>
+&lt;body&gt;
+    &lt;h1&gt;Welcome to My Web Page&lt;/h1&gt;
+        &lt;p&gt;This is the content of my web page.&lt;/p&gt;
+&lt;/body&gt; </pre>
+      </div>
+      <div class="section">
+        <h3>Structure</h3>
+        <p>
+          HTML structure refers to the overall organization and hierarchy of elements within an HTML document. It consists of the root <q>&lt;html&gt;</q> element, the <q>&lt;head&gt;</q> element, and the <q>&lt;body&gt;</q> element. Example:
+        </p>
+        <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;My Web Page&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        Content goes here
+    &lt;/body&gt;
+&lt;/html&gt; </pre>
+      </div>
+      <div class="section">
+        <h3>Elements</h3>
+        <p>
+          Let's define HTML elements. An element is anything enclosed between opening (<) and closing (>) tags. Example:
+        <pre>
+&lt;h1&gt;My First Heading&lt;/h1&gt;<br>
+&lt;p&gt;My first paragraph.&lt;/p&gt; </pre>
+          <p>In the above example, both <q>My First Heading</q> and <q>My first paragraph</q> are enclosed within tags, making them HTML elements.</p>
+        </p>
+      </div>
+      <div class="section">
+        <h3>Attributes</h3>
+        <p>
+          All elements can have the <q>&lt;a&gt;</q> attribute. It provides additional information about elements and is always specified in the start tag. They usually come in name/value pairs. Example:
+          <pre>
+&lt;a href="https://www.google.com" target="_blank"&gt;Go to Google&lt;/a&gt; </pre>
+          <p>If we run this code, it would render like this:</p>
+          <a href="https://www.google.com" target="_blank">Go to Google</a>
+          <p>Note that we added some attributes inside the <q>&lt;a&gt;</q> opening tag: <q>href</q> and <q>target</q> respectively. The <q>href</q> attribute stands for HyperText Reference, which allows us to provide a link, and the <q>target</q> attribute allows us to decide where we want the page to be displayed. However, you don't need to worry about this now. We'll see more information later.</p>
+        </p>
+      </div>
+      <div class="section">
+        <h3>Headings</h3>
+        <p>
+          HTML headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags, with &lt;h1&gt; being the most important heading and &lt;h6&gt; being the least important heading. Example:
+          <pre>
+            <div class="none">
+              <h1 style="color: black;">Heading 1</h1>
+              <h2 style="color: black;">Heading 2</h2>
+              <h3 style="color: black;">Heading 3</h3>
+              <h4 style="color: black;">Heading 4</h4>
+              <h5 style="color: black;">Heading 5</h5>
+              <h6 style="color: black;">Heading 6</h6>
+            </div> </pre>
+        </p>
+      </div>
+      <div class="section">
+        <h3>Paragraphs</h3>
+        <p>
+          Paragraphs are represented using the &lt;p&gt; element. They display the content of our headings and form the backbone of our page's content. For example:
+          <pre>
+&lt;p&gt;My name is Jesus, and I'm creating my first website. In this case, I'm teaching you how a paragraph &lt;br&gt;
+looks like inside the paragraph element. I hope you understand it.&lt;/p&gt;</pre>
+          <p>As you can see, I used the &lt;br&gt; element to break my paragraph into two lines.</p>
+          <p>Additionally, we have the horizontal rule &lt;hr&gt; element, which creates a horizontal rule between paragraphs. Example:</p>
+          <pre>
+Read this example.&lt;hr&gt;<hr>Now read this one.</pre>
+        </p>
+      </div>
+      <div class="section">
+        <h3>Style</h3>
+        <p>
+          The HTML style attribute is used to add styles to an element, such as color, font, size, and more. Setting the style attribute is slightly different from other attributes; it doesn't require tags specifically for styling text. Instead, the styles are defined within the tags of the corresponding element.<br>
+          There are numerous properties we can use to style our text, but for now, let's focus on the most popular and easiest to learn. To set up this attribute, use the following syntax:
+          <pre>&lt;tagname style="property:value;"&gt;</pre>
+          <p>As I mentioned earlier, there are many properties we can utilize. One of them is to specify the color of our text. Example:</p>
+          <pre style="color: lightskyblue;">
+This text color is lightskyblue.</pre>
+<pre>&lt;p style="color: lightskyblue;"&gt;This text color is lightskyblue&lt;/p&gt;</pre>
+          <p>You can also change the background color of your text. Example:</p>
+          <pre style="background-color: paleturquoise;">
+This text has a paleturquoise background color.</pre>
+<pre>&lt;p style="background-color: paleturquoise;"&gt;This text has a paleturquoise background color.&lt;/p&gt;</pre>
+          <p>The font-family property is used to change the font used in the text. Example:</p>
+          <pre style="font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;">
+This text has a different font than the previous examples.</pre>
+<pre>&lt;p style="font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;"&gt;This text has a different font than the previous examples.&lt;/p&gt;</pre>
+        </p>
+      </div>
+      <div class="section">
+        <h3>Images</h3>
+        <p>
+          Images can have a significant impact on our website. They provide valuable context and enhance the visual appeal of our page. The syntax for the &lt;img&gt; tag is as follows:
+          <pre> &lt;img src="url" alt="alternatetext"&gt;</pre>
+          <p>Here, the <q>img</q> tag represents the image, the <q>src</q> attribute specifies the location of the image, and the <q>alt</q> attribute provides alternate text that appears when the image cannot be displayed. Example:</p>
+          <pre>
+<img class="landscape" src="landscape.jpg" alt="chinese-landscape">  <img class="city" src="city.jpg" alt="city">  <img src="unknown" alt="This image isn't displayed on purpose.">
+          </pre>
+        </p>
+      </div>
+      <p>For more information, visit:
+        <a href="https://www.w3schools.com/" target="_blank" title="W3Schools" style="color: green;">W3Schools</a>
+      </p>
+      <a href="index1.html"><button class="nbutton">Next</button></a>
+      <p>© 2023 Jesus Martinez. All Rights Reserved.</p>
+    </div>
+  </body>
+  </html>
